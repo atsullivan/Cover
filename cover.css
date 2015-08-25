@@ -9,17 +9,6 @@ a:hover {
   color: #fff;
 }
 
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
-}
-
-
 /*
  * Base structure
  */
@@ -28,7 +17,6 @@ html,
 body {
   height: 100%;
   background-color: #E42F45;
-  background-image: url("https://unsplash.it/1750");
   background-image: url(img/bg4.png);
   background-size: 100%;
 }
@@ -88,7 +76,6 @@ body {
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
   color: #B42B3F;
 }
@@ -128,18 +115,15 @@ body {
 #timebox {
   font-size: 200px;
   display: inline;
-  font-family: 'Lato', sans-serif;
   font-weight: 100;
 }
 
 #apbox {
   font-size: 20px;
   display: inline;
-  font-family: 'Lato', sans-serif;
 }
 
 #datebox {
-  font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: #E42F45;
@@ -152,7 +136,6 @@ body {
  */
 
 .mastfoot {
-  color: rgba(255,255,255,.5);
   color: #E42F45;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -186,14 +169,6 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    /*width: 700px;*/
+    width: 100%;
   }
 }
