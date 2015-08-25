@@ -17,7 +17,7 @@ html,
 body {
   height: 100%;
   background-color: #E42F45;
-  background-image: url(img/bg4.png);
+  background-image: url(../img/bg4.png);
   background-size: 100%;
 }
 body {
@@ -52,11 +52,17 @@ body {
 /*
  * Header
  */
-.masthead-brand {
+.masthead-brand > a {
   font-family: 'Ailerons';
   font-size: 40px;
   margin-top: 10px;
   margin-bottom: 10px;
+  -webkit-transition: 1s;
+}
+
+.masthead-brand > a:hover {
+  text-decoration: none;
+  color: #E42F45;
 }
 
 .masthead-nav > li {
